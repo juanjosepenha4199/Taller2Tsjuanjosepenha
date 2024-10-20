@@ -3,7 +3,6 @@
       const seriesTable = document.getElementById('series-table');
       const detailsContainer = document.getElementById('details-container');
   
-      // Load series data and build the table
       series.forEach(serie => {
         const row = seriesTable.insertRow();
         const nameCell = row.insertCell();
